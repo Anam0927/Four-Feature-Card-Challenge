@@ -121,11 +121,25 @@ h2
 
 .words p
 {
+  margin-bottom: 20px;
+}
+
+/*.attribution p
+{
+  margin: 0 auto 30px auto;
+}*/
+
+.attribution
+{
   margin-bottom: 30px;
 }
 
+.attribution a
+{
+  color: #4C4E61;
+}
 
-@media screen and (max-width: 675px)
+@media screen and (max-width: 690px)
 {
   .light, .bold
   {
